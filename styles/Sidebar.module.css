@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid blue; */
+  width: 20%;
+  height: 100vh;
+}
+
+.twitter_icon {
+  display: flex;
+}
+
+.tweet_button {
+  display: flex;
+  justify-content: center;
+  background-color: #3baaff;
+  border-radius: 25px;
+  font-size: 15px;
+  width: 90%;
+  height: 3.2em;
+}
+
+.tweet_button:hover {
+  cursor: pointer;
+  background-color: #008efb;
+}
+
+.tweet_button > h4 {
+  color: white;
+  display: flex;
+  align-self: center;
+}
+
+.profile_container {
+  display: flex;
+  position: relative;
+  border: 1px solid black;
+  margin-top: auto;
+  width: 100%;
+  height: 4em;
+}
+
+.profile {
+  display: flex;
+  align-self: center;
+  /* justify-content: center; */
+  margin: 0 0 0 15px;
+  width: 100%;
+}
+
+.display_name {
+  display: flex;
+  align-self: center;
+  margin: 0 0 0 15px;
+  width: 100px;
+}
+
+.profile_picture {
+  display: flex;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
